@@ -1,0 +1,11 @@
+name: ByTheFish
+version: '${project.version}'
+main: net.mov51.bythefish.ByTheFish
+api-version: 1.19
+commands:
+  bythefish:
+    description: ByTheFish
+    usage: /bythefish
+    permission: bythefish.command
+    permission-message: You do not have permission to use this command!
+    default: false
